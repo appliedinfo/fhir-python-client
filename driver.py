@@ -12,12 +12,16 @@ if __name__ == "__main__":
     allscripts_secret = "6D1A05FF-4DA7-46CA-8E60-2DCD38A183B2"
     intersys_secret = "L6vV9Ewd7r9M6nBXBuxtfVVdoh4lHFrDySFC/ufj8xqnAKGFbFRpdAqpXPIVXWjuElRz3atcPMz16Fhv8UL10Q==" # intersys
 
+    applied_url = 'http://fhir.appliedinformaticsinc.com'
+    applied_secret = 'ashf087qwb3874ch3q123d'
+    applied_id = '98736458'
+
     epic_patient_id = "RVBUOyAgICAgWjU2OTI7Ozs7dGVybWluYXRl" #epic
     intersys_patient_id = "pat-1" # intersystems
 
-    api_url = intersys_url
-    client_secret = intersys_secret
-    patient_id = intersys_patient_id
+    api_url = applied_url
+    client_secret = applied_secret
+    patient_id = applied_id
 
     c = Client(api_url, client_id, client_secret)
 
